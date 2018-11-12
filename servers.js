@@ -27,7 +27,7 @@ function jsonResponse(res,data){
 }
 
 const hostname = 'localhost';
-const port = 80;
+const port = 8080;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
